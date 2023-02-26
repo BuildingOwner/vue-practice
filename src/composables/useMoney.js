@@ -3,7 +3,7 @@ function useMoney(initialTotalMoney = 0) {
   const totalMoney = ref(initialTotalMoney);
   function addMoney(price) {
     totalMoney.value += price;
-  };
+  }
 
   return {
     totalMoney,
